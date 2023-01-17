@@ -1,9 +1,13 @@
-# Logs
+# Logs m
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.metadata/
+**/metadata/*
+/metadata/
 
 # Runtime data
 pids
@@ -59,3 +63,4 @@ typings/
 
 # next.js build output
 .next
+
